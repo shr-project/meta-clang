@@ -43,6 +43,7 @@ SRC_URI = "\
     file://0032-llvm-Do-not-use-cmake-infra-to-detect-libzstd.patch \
     file://0033-compiler-rt-Fix-stat-struct-s-size-for-O32-ABI.patch \
     file://0034-compiler-rt-Undef-_TIME_BITS-along-with-_FILE_OFFSET.patch \
+    file://0040-ToolChains-Gnu.cpp-ARMLibDirs-search-also-in-lib32.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
